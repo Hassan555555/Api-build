@@ -1,0 +1,30 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/5f4b836304be8807f88ead13
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Ali",
+    "subscribed": "MrBeast",
+    "nickName": "Muzzamil"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/5f4cf24e30415704f8c7da74
+
+
+###
+
+PATCH  http://localhost:3000/subscribers/5f4cf5fce0c97522c0b460ab
+Content-Type: application/json
+
+{ 
+    "nickName": "Harris"
+}
